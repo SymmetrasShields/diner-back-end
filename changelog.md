@@ -3,6 +3,9 @@ Members: Lydia, Dennis
 Org: 4711-Lab09
 ==============================
 
+2016-11-26 20:02 - Dennis
+- Added crud methods to Maintenance controller.
+
 2016-11-26 18:32 - Dennis
 - Refactored project by removing unneeded files.
 
