@@ -71,7 +71,6 @@ class Maintenance extends Rest_Controller {
 	{
 	    $key = $this->get('id');
 	    $record = array_merge(array('id' => $key), $_POST);
-	    var_dump(($_POST));
 	    $this->menu->add($record);
 	    $this->response(array('ok'), 200);
 	}
