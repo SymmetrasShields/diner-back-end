@@ -68,7 +68,7 @@ class Maintenance extends Rest_Controller {
 	// Handle an incoming POST - add a new menu item
 	// ex. maintenance/item/id/6
 	function item_post()
-	{
+	{		
 	    $key = $this->get('id');
 	    $record = array_merge(array('id' => $key), $_POST);
 	    $this->menu->add($record);
