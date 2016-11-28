@@ -5,6 +5,7 @@ Org: 4711-Lab09
 
 2016-11-27 16:49 - Dennis
 - Refactored project by removing unneeded files.
+- Updated backend.sql
 
 2016-11-27 15:43 - Lydia
 - Added new backend.sql

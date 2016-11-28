@@ -21,6 +21,14 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
+--
+-- Drop old tables
+--
+DROP TABLE IF EXISTS `Categories`;
+DROP TABLE IF EXISTS `ci_sessions`;
+DROP TABLE IF EXISTS `Orderitems`;
+DROP TABLE IF EXISTS `Orders`;
+
 
 --
 -- Table structure for table `menu`
